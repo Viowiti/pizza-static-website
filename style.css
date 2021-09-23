@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: #dbd5d5;
+}
+
+footer{
+	background: black;
+	color: ghostwhite;
+	height: 100%;
+}
+
+@media (min-width: 992px){
+
+	.header{
+		overflow: hidden;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		border-bottom: black solid;
+		padding: 20px;
+		display: flex;
+		background: ghostwhite;
+		position: fixed;
+	}
+
+	.header nav ul{
+		display: flex;
+		margin-left: 500px;
+	}
+
+	.header nav ul li{
+		margin: 15px;
+		padding: 5px;
+	}
+
+	.logo{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 2em;
+		
+	}
+
+	main{
+		margin-top: 100px;
+		width: 100%;
+		
+
+	}
+	main > header{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+	}
+
+
+	.pizzas{
+		/*width: 25%;*/
+		margin: 10px;
+		border: solid 1px #a69e9d;
+		border-radius: 12px;
+		padding: 3px;
+	}
+
+	
+	}
+
+	.pizza_image{
+		border-radius: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 7px;
+	}
+
+	h3{
+		text-align: center;
+		width: 100%;
+		color: white;
+		background: black;
+		margin-top: 0;
+		border-radius: 12px;
+	}
+
+	.footer > header{
+		text-align: center;
+	}
+
+	.fa {
+  padding: 20px;
+  width: 100;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.footer > ul{
+	display: flex;
+	justify-content: center;
+	}
+
+}
+
+@media (min-width: 967px) and (max-width: 991px){
+
+	.header{
+		overflow: hidden;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		border-bottom: black solid;
+		padding: 20px;
+		display: flex;
+		background: ghostwhite;
+		position: fixed;
+	}
+
+	.header nav ul{
+		display: flex;
+		margin-left: 500px;
+	}
+
+	.header nav ul li{
+		margin: 15px;
+		padding: 5px;
+	}
+
+	.logo{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 1em;
+		
+	}
+
+	main{
+		margin-top: 100px;
+		width: 100%;
+		
+
+	}
+	main > header{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+	}
+
+
+	.pizzas{
+		/*width: 25%;*/
+		margin: 10px;
+		border: solid 1px #a69e9d;
+		border-radius: 12px;
+		padding: 3px;
+	}
+
+
+	.pizza_image{
+		border-radius: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 7px;
+	}
+	.meat{
+		
+	}
+	.cheese{
+	
+	}
+
+	h3{
+		text-align: center;
+		width: 100%;
+		color: white;
+		background: black;
+		margin-top: 0;
+		border-radius: 12px;
+	}
+
+	.footer > header{
+		text-align: center;
+	}
+
+	.fa {
+  padding: 20px;
+  width: 100;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.footer > ul{
+	display: flex;
+	justify-content: center;
+	}
+
+}
